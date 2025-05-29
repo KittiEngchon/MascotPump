@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mascot Pump Launchpad</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-4 bg-gray-900 border-b border-gray-700">
+    <h1 class="text-2xl font-bold text-green-400">MascotPump</h1>
+    <button class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg text-white" onclick="connectWallet()">Connect Wallet</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-12 px-4">
+    <h2 class="text-4xl font-bold mb-4">Launch Your Meme Token in Seconds</h2>
+    <p class="text-gray-400 mb-6">Only mascot-based meme coins allowed. Trade, farm, and rank with AI insight.</p>
+    <button class="bg-purple-500 hover:bg-purple-600 px-6 py-3 rounded-xl text-white font-semibold text-lg">🚀 Launch Token</button>
+  </section>
+
+  <!-- Trending Tokens -->
+  <section class="px-6 py-8 max-w-6xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4">🔥 Trending Tokens</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-800 p-4 rounded-xl shadow-lg">
+        <div class="flex items-center gap-3">
+          <img src="https://placekitten.com/60/60" class="w-12 h-12 rounded-full" />
+          <div>
+            <h4 class="text-lg font-bold">$CATCOIN</h4>
+            <p class="text-sm text-gray-400">+128% | TVL: $9.2k</p>
+          </div>
+        </div>
+        <div class="mt-4">
+          <button class="bg-green-600 hover:bg-green-700 w-full py-2 rounded-lg">Buy</button>
+        </div>
+      </div>
+      <!-- Add more tokens here... -->
+    </div>
+  </section>
+
+  <!-- AI Influencer Insight -->
+  <section class="px-6 py-10 max-w-5xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4">🧠 AI Influencer Rankings</h3>
+    <div class="bg-gray-800 p-6 rounded-xl">
+      <ul class="space-y-3">
+        <li class="flex justify-between">
+          <span>1. 🐸 $PEPEKING</span>
+          <span class="text-green-400">AI Hype Score: 92.4</span>
+        </li>
+        <li class="flex justify-between">
+          <span>2. 🐶 $DOGEJUNIOR</span>
+          <span class="text-green-300">AI Hype Score: 88.7</span>
+        </li>
+        <li class="flex justify-between">
+          <span>3. 🐱 $KITTYPUMP</span>
+          <span class="text-yellow-300">AI Hype Score: 83.1</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 py-8 border-t border-gray-700">
+    Built on Polygon • MascotPump.fun • 2025
+  </footer>
+
+  <!-- Mock Wallet Connect -->
+  <script>
+    function connectWallet() {
+      alert("Mock connect to MetaMask");
+    }
+  </script>
+
+</body>
+</html>
